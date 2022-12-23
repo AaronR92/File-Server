@@ -1,0 +1,15 @@
+application:
+  allowed-extensions: "fb2,pdf,epub,txt,fb3,rtf"
+  file-directory: "D:\\All Projects\\testfolder"
+  version: 1.0
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: File-Server
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
